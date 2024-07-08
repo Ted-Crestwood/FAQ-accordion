@@ -1,0 +1,30 @@
+body {
+    height: 100vh; /* Ensure body takes up the full viewport height */
+    margin: 0;
+    background: 
+      linear-gradient(to bottom, transparent 30%, #f9eeff 30%), 
+      url('./assets/background.png');
+    background-size: 100% 100%; /* Ensure the background image covers its container */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    background-attachment: fixed; /* Keep the background image fixed */
+    background-position: top; /* Position the background image at the top */
+  }
+  
+  
+.main{
+    margin: auto;
+    margin-top: 100px;
+    max-width: 70%;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+h2{
+    font-size: 18px;
+}
+h2:hover{
+    color: #af29e6;
+    cursor: pointer;
+}
+.start{
+    background-image: url('./assets/icon-star.png');
+}
